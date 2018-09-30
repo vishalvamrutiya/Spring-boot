@@ -2,12 +2,11 @@ package com.kanaiya.webserviceclient.webservice;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import org.springframework.ws.client.core.support.WebServiceGatewaySupport;
 import org.springframework.ws.soap.client.core.SoapActionCallback;
 
-import hello.wsdl.GetCountryRequest;
-import hello.wsdl.GetCountryResponse;
+import com.kanaiya.webservice.wsdl.GetCountryRequest;
+import com.kanaiya.webservice.wsdl.GetCountryResponse;
 
 public class CountryClient extends WebServiceGatewaySupport {
 

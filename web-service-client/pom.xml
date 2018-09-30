@@ -80,7 +80,7 @@
 				</executions>
 				<configuration>
 					<schemaLanguage>WSDL</schemaLanguage>
-					<generatePackage>hello.wsdl</generatePackage>
+					<generatePackage>com.kanaiya.webservice.wsdl</generatePackage>
 					<schemas>
 						<schema>
 							<url>http://localhost:8080/ws/countries.wsdl</url>

@@ -6,9 +6,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.kanaiya.webservice.wsdl.Country;
 import com.kanaiya.webserviceclient.webservice.CountryClient;
-
-import hello.wsdl.Country;
 
 @RestController
 @RequestMapping("/rest/country")
