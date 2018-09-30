@@ -54,6 +54,7 @@ public class WebServiceConfig extends WsConfigurerAdapter {
 		return securityInterceptor;
 	}
 	
+	
 	@Bean
 	public SimplePasswordValidationCallbackHandler callbackHandler() {
 		SimplePasswordValidationCallbackHandler handler = new SimplePasswordValidationCallbackHandler();
